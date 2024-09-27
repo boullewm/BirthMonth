@@ -4,7 +4,7 @@ public class Main {
     {
         int birthMonth = 0;
         Scanner in = new Scanner(System.in);
-        System.out.print("Enter a number for your birth month ");
+        System.out.print("Enter a number for your birth month: ");
         if(in.hasNextInt()) {
             birthMonth = in.nextInt();
             in.nextLine();
